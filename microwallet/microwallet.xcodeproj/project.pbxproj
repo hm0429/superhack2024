@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084BC16E2C680DD300B977CB /* microwalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BC16D2C680DD300B977CB /* microwalletApp.swift */; };
+		084BC1702C680DD300B977CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BC16F2C680DD300B977CB /* ContentView.swift */; };
+		084BC1722C680DD400B977CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084BC1712C680DD400B977CB /* Assets.xcassets */; };
+		084BC1752C680DD400B977CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084BC1742C680DD400B977CB /* Preview Assets.xcassets */; };
+		084BC17F2C680DD400B977CB /* microwalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BC17E2C680DD400B977CB /* microwalletTests.swift */; };
+		084BC1892C680DD400B977CB /* microwalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BC1882C680DD400B977CB /* microwalletUITests.swift */; };
+		084BC18B2C680DD400B977CB /* microwalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BC18A2C680DD400B977CB /* microwalletUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		084BC17B2C680DD400B977CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 084BC1622C680DD300B977CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084BC1692C680DD300B977CB;
+			remoteInfo = microwallet;
+		};
+		084BC1852C680DD400B977CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 084BC1622C680DD300B977CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084BC1692C680DD300B977CB;
+			remoteInfo = microwallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084BC16A2C680DD300B977CB /* microwallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microwallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		084BC16D2C680DD300B977CB /* microwalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microwalletApp.swift; sourceTree = "<group>"; };
+		084BC16F2C680DD300B977CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		084BC1712C680DD400B977CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		084BC1742C680DD400B977CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		084BC17A2C680DD400B977CB /* microwalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microwalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		084BC17E2C680DD400B977CB /* microwalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microwalletTests.swift; sourceTree = "<group>"; };
+		084BC1842C680DD400B977CB /* microwalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microwalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		084BC1882C680DD400B977CB /* microwalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microwalletUITests.swift; sourceTree = "<group>"; };
+		084BC18A2C680DD400B977CB /* microwalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microwalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		084BC1672C680DD300B977CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084BC1772C680DD400B977CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084BC1812C680DD400B977CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		084BC1612C680DD300B977CB = {
+			isa = PBXGroup;
+			children = (
+				084BC16C2C680DD300B977CB /* microwallet */,
+				084BC17D2C680DD400B977CB /* microwalletTests */,
+				084BC1872C680DD400B977CB /* microwalletUITests */,
+				084BC16B2C680DD300B977CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		084BC16B2C680DD300B977CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				084BC16A2C680DD300B977CB /* microwallet.app */,
+				084BC17A2C680DD400B977CB /* microwalletTests.xctest */,
+				084BC1842C680DD400B977CB /* microwalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		084BC16C2C680DD300B977CB /* microwallet */ = {
+			isa = PBXGroup;
+			children = (
+				084BC16D2C680DD300B977CB /* microwalletApp.swift */,
+				084BC16F2C680DD300B977CB /* ContentView.swift */,
+				084BC1712C680DD400B977CB /* Assets.xcassets */,
+				084BC1732C680DD400B977CB /* Preview Content */,
+			);
+			path = microwallet;
+			sourceTree = "<group>";
+		};
+		084BC1732C680DD400B977CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				084BC1742C680DD400B977CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		084BC17D2C680DD400B977CB /* microwalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				084BC17E2C680DD400B977CB /* microwalletTests.swift */,
+			);
+			path = microwalletTests;
+			sourceTree = "<group>";
+		};
+		084BC1872C680DD400B977CB /* microwalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				084BC1882C680DD400B977CB /* microwalletUITests.swift */,
+				084BC18A2C680DD400B977CB /* microwalletUITestsLaunchTests.swift */,
+			);
+			path = microwalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		084BC1692C680DD300B977CB /* microwallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084BC18E2C680DD400B977CB /* Build configuration list for PBXNativeTarget "microwallet" */;
+			buildPhases = (
+				084BC1662C680DD300B977CB /* Sources */,
+				084BC1672C680DD300B977CB /* Frameworks */,
+				084BC1682C680DD300B977CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = microwallet;
+			productName = microwallet;
+			productReference = 084BC16A2C680DD300B977CB /* microwallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		084BC1792C680DD400B977CB /* microwalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084BC1912C680DD400B977CB /* Build configuration list for PBXNativeTarget "microwalletTests" */;
+			buildPhases = (
+				084BC1762C680DD400B977CB /* Sources */,
+				084BC1772C680DD400B977CB /* Frameworks */,
+				084BC1782C680DD400B977CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				084BC17C2C680DD400B977CB /* PBXTargetDependency */,
+			);
+			name = microwalletTests;
+			productName = microwalletTests;
+			productReference = 084BC17A2C680DD400B977CB /* microwalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		084BC1832C680DD400B977CB /* microwalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084BC1942C680DD400B977CB /* Build configuration list for PBXNativeTarget "microwalletUITests" */;
+			buildPhases = (
+				084BC1802C680DD400B977CB /* Sources */,
+				084BC1812C680DD400B977CB /* Frameworks */,
+				084BC1822C680DD400B977CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				084BC1862C680DD400B977CB /* PBXTargetDependency */,
+			);
+			name = microwalletUITests;
+			productName = microwalletUITests;
+			productReference = 084BC1842C680DD400B977CB /* microwalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		084BC1622C680DD300B977CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					084BC1692C680DD300B977CB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					084BC1792C680DD400B977CB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 084BC1692C680DD300B977CB;
+					};
+					084BC1832C680DD400B977CB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 084BC1692C680DD300B977CB;
+					};
+				};
+			};
+			buildConfigurationList = 084BC1652C680DD300B977CB /* Build configuration list for PBXProject "microwallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 084BC1612C680DD300B977CB;
+			productRefGroup = 084BC16B2C680DD300B977CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				084BC1692C680DD300B977CB /* microwallet */,
+				084BC1792C680DD400B977CB /* microwalletTests */,
+				084BC1832C680DD400B977CB /* microwalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		084BC1682C680DD300B977CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084BC1752C680DD400B977CB /* Preview Assets.xcassets in Resources */,
+				084BC1722C680DD400B977CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084BC1782C680DD400B977CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084BC1822C680DD400B977CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		084BC1662C680DD300B977CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084BC1702C680DD300B977CB /* ContentView.swift in Sources */,
+				084BC16E2C680DD300B977CB /* microwalletApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084BC1762C680DD400B977CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084BC17F2C680DD400B977CB /* microwalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084BC1802C680DD400B977CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084BC18B2C680DD400B977CB /* microwalletUITestsLaunchTests.swift in Sources */,
+				084BC1892C680DD400B977CB /* microwalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		084BC17C2C680DD400B977CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084BC1692C680DD300B977CB /* microwallet */;
+			targetProxy = 084BC17B2C680DD400B977CB /* PBXContainerItemProxy */;
+		};
+		084BC1862C680DD400B977CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084BC1692C680DD300B977CB /* microwallet */;
+			targetProxy = 084BC1852C680DD400B977CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		084BC18C2C680DD400B977CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		084BC18D2C680DD400B977CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		084BC18F2C680DD400B977CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"microwallet/Preview Content\"";
+				DEVELOPMENT_TEAM = BK3297883G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.piyopiyo.microwallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		084BC1902C680DD400B977CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"microwallet/Preview Content\"";
+				DEVELOPMENT_TEAM = BK3297883G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.piyopiyo.microwallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		084BC1922C680DD400B977CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK3297883G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.piyopiyo.microwalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microwallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/microwallet";
+			};
+			name = Debug;
+		};
+		084BC1932C680DD400B977CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK3297883G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.piyopiyo.microwalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microwallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/microwallet";
+			};
+			name = Release;
+		};
+		084BC1952C680DD400B977CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK3297883G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.piyopiyo.microwalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = microwallet;
+			};
+			name = Debug;
+		};
+		084BC1962C680DD400B977CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BK3297883G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.piyopiyo.microwalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = microwallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		084BC1652C680DD300B977CB /* Build configuration list for PBXProject "microwallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084BC18C2C680DD400B977CB /* Debug */,
+				084BC18D2C680DD400B977CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		084BC18E2C680DD400B977CB /* Build configuration list for PBXNativeTarget "microwallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084BC18F2C680DD400B977CB /* Debug */,
+				084BC1902C680DD400B977CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		084BC1912C680DD400B977CB /* Build configuration list for PBXNativeTarget "microwalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084BC1922C680DD400B977CB /* Debug */,
+				084BC1932C680DD400B977CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		084BC1942C680DD400B977CB /* Build configuration list for PBXNativeTarget "microwalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084BC1952C680DD400B977CB /* Debug */,
+				084BC1962C680DD400B977CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 084BC1622C680DD300B977CB /* Project object */;
+}
